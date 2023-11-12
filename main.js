@@ -5,15 +5,15 @@
 const cOptions = ["rock", "paper", "scissors"];
 let playerScore = 0;
 let compScore = 0;
-let playerChoice = prompt("Please enter rock, paper, or scissors: ");
+// let playerChoice = prompt("Please enter rock, paper, or scissors: ");
 let getComputerChoice = cOptions[Math.floor(Math.random() * cOptions.length)];
 
 
-if (playerChoice != 'rock' || 'paper' || 'scissors') {
-    console.log()
-} else {
-    console.log('Invalid option, please choose again')
-};
+// if (playerChoice != 'rock' || 'paper' || 'scissors') {
+//     console.log()
+// } else {
+//     console.log('Invalid option, please choose again')
+// };
 
 let singleRound = (playerChoice, getComputerChoice) => {
     switch (true) {
