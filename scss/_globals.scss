@@ -32,3 +32,17 @@ a, a:visited, a:hover {
     text-decoration: none;
     
 }
+.flex {
+    display: flex;
+
+    &-jc-sb {
+        justify-content: space-between;
+    };
+
+    &-jc-c { 
+        justify-content: center;
+    };
+    &-ac-c {
+        align-content: center;
+    };
+}
