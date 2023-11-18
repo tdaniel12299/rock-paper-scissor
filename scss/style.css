@@ -1,6 +1,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  background-color: #90c9bf;
 }
 
 *, *::before, *::after {
@@ -8,7 +9,6 @@ html {
 }
 
 body {
-  background-color: #90c9bf;
   margin: 0px;
   padding: 0px;
   font-family: "Public Sans", sans-serif;
