@@ -1,8 +1,6 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
-    background-color: #90c9bf;
-
 } 
 
 *, *::before, *::after {
@@ -11,7 +9,10 @@ html {
 }
 
 body {
+    background-image: url(/imgs/brown\ paper.avif);
     margin: 0px;
+    background-size:cover;
+    background-repeat: no-repeat;
     padding: 0px;
     font-family: 'Public Sans', sans-serif;
     font-size: $font-med;
@@ -37,8 +38,8 @@ a, a:visited, a:hover {
 .flex {
     display: flex;
 
-    &-jc-sb {
-        justify-content: space-between;
+    &-jc-sa {
+        justify-content: space-around;
     };
 
     &-jc-c { 
