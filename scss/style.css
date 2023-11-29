@@ -34,6 +34,15 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+.container {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 69.375rem;
+  margin: 0 auto;
+}
+
 .flex {
   display: flex;
 }
@@ -51,4 +60,7 @@ a, a:visited, a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 6.25rem;
+}
+.header h1 {
+  font-size: 3.25rem;
 }/*# sourceMappingURL=style.css.map */
