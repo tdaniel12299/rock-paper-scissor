@@ -31,10 +31,6 @@ h1, h2 , h3 {
     margin-top: 0px;
 }
 
-a, a:visited, a:hover {
-    text-decoration: none;   
-}
-
 .container {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
@@ -70,7 +66,7 @@ a, a:visited, a:hover {
     }
 
 }
-//scoreboard
+//btns
 
 .buttons {
     button {
@@ -78,11 +74,26 @@ a, a:visited, a:hover {
         border: 0.06rem solid tan;
         width: 8.75rem;
         height: 8.55rem;
+        
     }
     
     .rock {
         background-image: url(/imgs/rock.webp);
         background-size: contain;
+        font-family:'Inlander', sans-serif;
     }
+    
+    .paper {
+        background-image: url(/imgs/paper.jpg);
+        background-size: contain;
+        font-family:'Inlander', sans-serif;
+    }
+
+    .scissors {
+        background-image: url(/imgs/scissors.jpg);
+        background-size: contain;
+        font-family:'Inlander', sans-serif;
+    }
+
     
 }
