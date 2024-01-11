@@ -6,6 +6,10 @@ const cOptions = ["rock", "paper", "scissors"];
 let resultsDisplay = document.getElementById("resultsDisplay")
 let humanDiplay = document.getElementById("humanDisplay")
 let aiDisplay = document.getElementById("aiDisplay")
+const playerScoreDisplay = document.getElementById("playerScoreDisplay");
+const computerScoreDisplay = document.getElementById("computerScoreDisplay");
+let playerScore = 0;
+let computerScore = 0;
 
 let playGame = (playerChoice) => {
 
@@ -26,6 +30,17 @@ let playGame = (playerChoice) => {
                 result = (computerChoice === "paper") ? "You slayed the Dragon! You Win!" : "Fallen Hero, You Lose.";
                 break;
         }
+    }
+
+    switch(result){
+        case "You slayed the Dragon! You Win!":
+            playerScore++;
+            playerScoreDisplay.textContent = playerScore;
+            break;
+            case "Fallen Hero, You Lose.":
+                computerScore++;
+                computerScoreDisplay.textContent = computerScore;
+                break;
     }
     
     playerDisplay.textContent = `Hero: ${playerChoice}`;
