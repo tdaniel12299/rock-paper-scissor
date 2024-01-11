@@ -12,6 +12,7 @@ body {
   margin: 0px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   padding: 0px;
   font-family: "Inlander", sans-serif;
   font-size: 1.125rem;
@@ -91,4 +92,11 @@ h1, h2, h3 {
   background-image: url(/imgs/scissors.jpg);
   background-size: contain;
   font-family: "Inlander", sans-serif;
+}
+
+.scoreboard__display img {
+  padding: 0.6rem;
+  margin: 0.6rem;
+  width: auto;
+  height: 20rem;
 }/*# sourceMappingURL=style.css.map */

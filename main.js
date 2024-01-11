@@ -3,8 +3,10 @@
 //determine winner 
 
 const cOptions = ["rock", "paper", "scissors"];
-const humanScore = document.getElementById("humanScore");
-const aiScore = document.getElementById("aiScore")
+let humanScore = document.getElementById("humanScore");
+let aiScore = document.getElementById("aiScore")
+let humanDiplay = document.getElementById("humanDisplay")
+let aiDisplay = document.getElementById("aiDisplay")
 
 let playGame = (playerChoice) => {
 
@@ -14,4 +16,20 @@ let playGame = (playerChoice) => {
     if(playerChoice === computerChoice){
         result = "Stalemale Tie!"
     } else {
-        switch(playerChoice){}
+        switch(playerChoice){
+            case "rock":
+                result = (computerChoice === "scissors") ? "You slayed the Dragon! You Win!" : "Fallen Hero, You Lose.";
+                break;
+            case "paper":
+                result = (computerChoice === "rock") ? "You slayed the Dragon! You Win!" : "Fallen Hero, You Lose.";
+                break;
+            case "scissors":
+                result = (computerChoice === "paper") ? "You slayed the Dragon! You Win!" : "Fallen Hero, You Lose.";
+                break;
+        }
+    }
+    
+    playerDisplay.textContent = `Hero: ${playerChoice}`;
+    aiDisplay.textContent = `Dragon: ${computerChoice}`;
+
+}
