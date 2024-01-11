@@ -3,8 +3,7 @@
 //determine winner 
 
 const cOptions = ["rock", "paper", "scissors"];
-let humanScore = document.getElementById("humanScore");
-let aiScore = document.getElementById("aiScore")
+let resultsDisplay = document.getElementById("resultsDisplay")
 let humanDiplay = document.getElementById("humanDisplay")
 let aiDisplay = document.getElementById("aiDisplay")
 
@@ -31,5 +30,6 @@ let playGame = (playerChoice) => {
     
     playerDisplay.textContent = `Hero: ${playerChoice}`;
     aiDisplay.textContent = `Dragon: ${computerChoice}`;
+    resultsDisplay.textContent = result;
 
 }

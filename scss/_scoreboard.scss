@@ -2,11 +2,19 @@
 .scoreboard {
 
     &__display {
+        
+        div {
+            flex-direction: column;
+
+        }
+        p {
+            align-self: center;
+
+        }
         img {
-            padding: 0.6rem;
-            margin: 0.6rem;
             width: auto;
             height: 20rem;
+            align-self: end;
         }
     }
 }
