@@ -96,6 +96,7 @@ h1, h2, h3 {
 
 .scoreboard__display div {
   flex-direction: column;
+  flex: auto;
 }
 .scoreboard__display p {
   align-self: center;
