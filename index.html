@@ -19,18 +19,18 @@
             <h3>Score</h3>
         </div>
         <div class="flex flex-jc-sa">
-            <div class="human score">
+            <div id="humanScore">
                 <p>Human</p>
             </div>
-            <div class="ai score">
-                <p>AI</p>
+            <div id="aiScore">
+                <p>Dragon</p>
             </div>
         </div>
     </div>
     <div class="buttons container flex flex-jc-sa">
-        <button href="#" class="rock">Rock!</button>
-        <button href="#" class="paper">Paper!</button>
-        <button href="#" class="scissors">Scissors! </button>
+        <button onclick="playGame('rock')" class="rock">Rock!</button>
+        <button onclick="playGame('paper')" class="paper">Paper!</button>
+        <button onclick="playGame('scissors')" class="scissors">Scissors! </button>
     </div>
 </body>
 </html>
