@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: url(/imgs/brownpaper.avif);
+  background-image: url(/imgs/brownpaper.png);
   margin: 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,17 +79,17 @@ h1, h2, h3 {
   opacity: 1;
 }
 .buttons .rock {
-  background-image: url(/imgs/rock.webp);
+  background-image: url(/imgs/rock.png);
   background-size: contain;
   font-family: "Inlander", sans-serif;
 }
 .buttons .paper {
-  background-image: url(/imgs/paper.jpg);
+  background-image: url(/imgs/paper.png);
   background-size: contain;
   font-family: "Inlander", sans-serif;
 }
 .buttons .scissors {
-  background-image: url(/imgs/scissors.jpg);
+  background-image: url(/imgs/scissors.png);
   background-size: contain;
   font-family: "Inlander", sans-serif;
 }
